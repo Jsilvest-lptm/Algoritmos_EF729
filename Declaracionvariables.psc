@@ -11,5 +11,10 @@ Algoritmo Aprobación_de_Curso
 	escribir "ingrese examen final"
 	leer examenfinal
 	resultado <- parcial1+parcial2+examenfinal
-	
+	Escribir "Su nota final es:"
+	si resultado >= 61 Entonces
+		Escribir "Usted Aprobo"
+	SiNo
+		Escribir "Usted Reprobo"
+	FinSi
 FinAlgoritmo
